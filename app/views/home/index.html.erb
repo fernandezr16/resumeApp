@@ -12,13 +12,17 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">&#9813;</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://www.linkedin.com/in/ricardofernandez1">Linkedin</a></li>
+        <li><a href="http://twitter.com/rickthemovie">Twitter</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://www.linkedin.com/in/ricardofernandez1">Linkedin</a></li>
+        <li><a href="http://twitter.com/rickthemovie">Twitter</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
@@ -28,13 +32,23 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center teal-text text-lighten-2">Ricardo Fernandez</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+           <img src="rick.jpg" alt="photograph of Rick!" class="profile-photo">
+           <p>
+              <a href="tel:6613167626">Call</a> |
+              <a href="mailto:fernandezr16@gmail.com">Mail</a> |
+              <a href="http://twitter.com/intent/tweet?screen_name=rickthemovie">Tweet!</a>
+            <p>
+          <h5 class="header col s12 light">Autonomous self-learner with a knack for software development.</h5>
+          
+<!--           <p align="left">Hey Guys. I decided to build this website out as a cool way to showcase what I've done professionally so far. Go ahead and take a look around. I'll be updating regulary. :)</p>
+ -->
+
         </div>
-        <div class="row center">
+<!--         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
+        </div> -->
         <br><br>
 
       </div>
@@ -53,9 +67,13 @@
             <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
             <h5 class="center">Languages</h5>
 
-            <ul class="light">
-            	<li>Ruby, Javascript, HTML5, CSS</li>
+            <ul class="light" style="list-style-type:square">
+            	<li>Ruby</li>
+            	<li>Javascipt</li>
+            	<li>HTML5</li>
+            	<li>CSS</li>
             </ul>
+            
           </div>
         </div>
 
@@ -64,7 +82,12 @@
             <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
             <h5 class="center">Frameworks</h5>
 
-            <p class="light">Ruby on Rails, Sinatra, Bootstrap, Materialize</p>
+            <ul class="light">
+              <li>Ruby on Rails</lu>
+              <li>Sinatra</li>
+              <li>Bootstrap</li>
+              <li>Materialize</li>
+            </ul>
           </div>
         </div>
 
@@ -73,7 +96,13 @@
             <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
             <h5 class="center">Databases</h5>
 
-            <p class="light">MySQL, PostgreSQL, MongoDB, Redis, Solr</p>
+            <ul class="light">
+              <li>MySql</li>
+              <li>PostgresSQL</li>
+              <li>MongoDB</li>
+              <li>Redis</li>
+              <li>Solr</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -86,7 +115,10 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Experience</h5>
+          <%= render 'shared/experience' %>
+           <h5 class="header col s12 light">Education</h5>
+            <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>

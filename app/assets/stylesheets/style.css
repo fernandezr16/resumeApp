@@ -11,6 +11,13 @@ nav .brand-logo {
   color: #444;
 }
 
+a {
+    color: white;
+}
+a:hover {
+    color: teal;
+}
+
 p {
   line-height: 2rem;
 }
@@ -52,4 +59,13 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 0px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+
 }

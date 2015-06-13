@@ -6,7 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
-
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -41,6 +40,8 @@ p {
   }
 
 @media only screen and (max-width : 992px) {
+
+
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -51,6 +52,7 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  
   #index-banner .section {
     top: 0;
   }

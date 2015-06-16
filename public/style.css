@@ -97,19 +97,24 @@ footer.page-footer {
 }
 
 .mybigcampus-logo {
-max-width: 80px;
+max-width: 70px;
 
 }
 
 .mdm-logo{
-  max-width: 80px;
+  max-width: 70px;
 
 }
 
 .rocket-logo{
-  max-width: 80px;
+  max-width: 70px;
 
 }
+
+.fif-logo{
+  max-width: 70px;
+}
+
 
 .title-date{  
   padding: 0px 10px 0px 10px;

@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -39,6 +42,7 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
 
 @media only screen and (max-width : 992px) {
 
@@ -103,5 +107,11 @@ max-width: 80px;
 
 .rocket-logo{
   max-width: 80px;
+
+}
+
+.title-date{  
+
+    background-color: black!important;
 
 }

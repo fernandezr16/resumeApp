@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+.responsive-video{
+padding: 30px;
+
+}
+
 .btn, .btn-large {
   height: 30px;
   text-decoration: none;

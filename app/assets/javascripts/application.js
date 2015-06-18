@@ -20,3 +20,4 @@
     });
   });
         
+//= require mediaelement_rails

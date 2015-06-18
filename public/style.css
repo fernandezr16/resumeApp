@@ -5,8 +5,22 @@
  *
  * Made By MaterializeCSS.com
  */
-
-
+.btn, .btn-large {
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  background-color: #eceff1;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: pointer; }
+  .btn:hover, .btn-large:hover {
+    color: ;
+    background-color: #9e9e9e  ; }
 
 nav ul a,
 nav .brand-logo {

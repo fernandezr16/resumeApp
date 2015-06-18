@@ -39,7 +39,7 @@ a:hover {
     color: white;
 }
 #high{
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .2);
 }
 p {
   padding-left: 10px; 
@@ -115,17 +115,19 @@ footer.page-footer {
 }
 
 .mybigcampus-logo {
-max-width: 70px;
+max-width: 65px;
+padding: 0;
+margin-top: 0;
 
 }
 
 .mdm-logo{
-  max-width: 70px;
+  max-width: 65px;
 
 }
 
 .rocket-logo{
-  max-width: 70px;
+  max-width: 65px;
 
 }
 

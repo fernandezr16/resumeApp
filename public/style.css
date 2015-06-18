@@ -5,6 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
+
 .btn, .btn-large {
   height: 30px;
   text-decoration: none;
@@ -17,10 +18,13 @@
   -o-transition: .2s ease-out;
   -ms-transition: .2s ease-out;
   transition: .2s ease-out;
-  cursor: pointer; }
+  cursor: pointer;
+}
+
   .btn:hover, .btn-large:hover {
-    color: ;
-    background-color: #9e9e9e  ; }
+    color: black;
+    background-color: #eeeeee; }
+
 
 nav ul a,
 nav .brand-logo {
@@ -34,12 +38,13 @@ a {
 a:hover {
     color: white;
 }
-
-
-
+#high{
+  background-color: rgba(0, 0, 0, .1);
+}
 p {
   padding-left: 10px; 
   line-height: 2rem;
+
 
 }
 

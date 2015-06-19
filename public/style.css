@@ -6,9 +6,15 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+.parallax-container .section{
+ position: inherit !important;
+}
+
+
 blockquote{
 margin:30px;
-
 }
 
 .btn, .btn-large {
